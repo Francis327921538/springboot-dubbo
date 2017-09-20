@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-api" />
+        <module name="base-dao" />
+        <module name="base-service" />
+        <module name="base-web" />
+        <module name="ecoupon-business" />
+        <module name="ecoupon-business-api" />
+        <module name="ecoupon-dao" />
+        <module name="ecoupon-web" />
+        <module name="mcproj-ecoupon-business" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-api" target="1.8" />
+      <module name="base-dao" target="1.8" />
+      <module name="base-service" target="1.8" />
+      <module name="base-web" target="1.8" />
+      <module name="ecoupon" target="1.8" />
+      <module name="ecoupon-business" target="1.8" />
+      <module name="ecoupon-business-api" target="1.8" />
+      <module name="ecoupon-dao" target="1.8" />
+      <module name="ecoupon-web" target="1.8" />
+      <module name="mcproj-ecoupon-business" target="1.8" />
+      <module name="mcproj-ecoupon-dao" target="1.8" />
+      <module name="parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-api/base-api.iml" filepath="$PROJECT_DIR$/base-api/base-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-dao/base-dao.iml" filepath="$PROJECT_DIR$/base-dao/base-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-service.iml" filepath="$PROJECT_DIR$/base-service/base-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-web/base-web.iml" filepath="$PROJECT_DIR$/base-web/base-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecoupon/ecoupon.iml" filepath="$PROJECT_DIR$/ecoupon/ecoupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecoupon/ecoupon-business/ecoupon-business.iml" filepath="$PROJECT_DIR$/ecoupon/ecoupon-business/ecoupon-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecoupon/ecoupon-business-api/ecoupon-business-api.iml" filepath="$PROJECT_DIR$/ecoupon/ecoupon-business-api/ecoupon-business-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecoupon/ecoupon-dao/ecoupon-dao.iml" filepath="$PROJECT_DIR$/ecoupon/ecoupon-dao/ecoupon-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecoupon/ecoupon-web/ecoupon-web.iml" filepath="$PROJECT_DIR$/ecoupon/ecoupon-web/ecoupon-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecoupon/mcproj-ecoupon-business.iml" filepath="$PROJECT_DIR$/ecoupon/mcproj-ecoupon-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+    </modules>
+  </component>
+</project>
