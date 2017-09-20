@@ -1,0 +1,55 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates/
+    cache: false
+    charset: utf-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
+#  spring.freemarker.template-loader-path=classpath:/web/
+#  spring.freemarker.cache=false
+#  spring.freemarker.charset=UTF-8
+#  spring.freemarker.check-template-location=true
+#  spring.freemarker.content-type=text/html
+#  spring.freemarker.expose-request-attributes=true
+#  spring.freemarker.expose-session-attributes=true
+#  spring.freemarker.request-context-attribute=request
+#  spring.freemarker.suffix=.ftl
+
+#spring.dubbo.application.name=ecoupon-web
+#spring.dubbo.registry.address=zookeeper://127.0.0.1:2181
+#spring.dubbo.scan=cn.com.wservice.mcproj
+  dubbo:
+    application:
+      name: ecoupon-web
+    registry:
+      protocol: zookeeper
+      address: 10.62.61.79:2181,10.62.61.80:2181
+    scan: cn.com.wservice.mcproj
+
+  redis:
+      database: 0
+      host: localhost
+      port: 6379
+      pool:
+        max-active: 8
+        max-wait: -1
+        min-idle: 0
+        max-idle: 8
+      timeout: 0
+  profiles:
+    active: dev
+password:
+  algorithmName: md5
+  hashIterations: 2
+server:
+  port: 8088
+query-object:
+  page: 0
+  size: 10
+
+
+
