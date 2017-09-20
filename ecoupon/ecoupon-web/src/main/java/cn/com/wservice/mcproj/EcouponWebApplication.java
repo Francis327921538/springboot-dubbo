@@ -15,6 +15,6 @@ public class EcouponWebApplication {
 		System.out.println(serverManager.userService.getUser(1));
 		System.out.println(serverManager.userService.getAll());
 		System.out.println(serverManager.electronicCouponService.listAll());
-		System.out.println(serverManager.electronicCouponService.getOne(1).toString()+"=================");
+		System.out.println(serverManager.electronicCouponService.getOne(1).toString()+"=========aaaaa========");
 	}
 }
